@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaithanya</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: rgb(0,0,33);
+            color:white;
+        }
+        nav{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(110, 110, 230);
+
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+
+        }
+        nav ul li a{
+            text-decoration: none;
+            color:white;
+        }
+        nav ul li a:hover{
+            font-size: 1.01rem;
+            color:wheat;
+        }
+
+        nav ul li{
+            list-style: none;
+            margin:0 23px;
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 6% 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 120px 0;
+
+        }
+        .firstsection > div{
+           width: 30%;
+
+        }
+        .leftsection{
+            font-size: 3rem;
+        }
+        .rightsection img{
+            width: 80%;
+            margin: 50px 0;
+        }
+        .puple{
+            color: rgb(71, 116, 240);
+
+        }
+        #element{
+            color: rgb(71, 116, 240);
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondsection h1{
+            font-size: 2rem;
+        }
+        .text-gray{
+            color: gray;
+            font-size: 10;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        .secondsection .box{
+            background: white;
+            width: 78vw;
+            height:2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondsection .vertical{
+            height: 80px;
+            width: 1px;
+            background-color: white;
+            margin: 0 150px;
+        }
+        .image-top{
+            width : 23px;
+            position: relative ;
+            top: -32px;
+            left: -9px;
+
+        }
+        .verticaltitle{
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+        .verticaldesc{
+            position: relative;
+            top:86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"> Chaithanya</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+             HI,my name is <span class="puple">CHAITHANYA</span>
+            <div>and I am a passionate</div>
+            
+            <span id="element"></span>
+            </div>
+            <div class="rightsection"><img src="bg.png"> </div>
+        </section>
+<hr>
+        <section class="secondsection">
+            <span class="text-gray"> what i have done so far</span>
+        
+            <h1 ><i>work Experience</i></h1>
+
+            <div class="box">
+            <div class="vertical">
+                <img class="image-top" src="developer.png">
+                <div class="verticaltitle"> HTML Developer</div>
+                <div class="verticaldesc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum vitae repellat dolore praesentium esse! Provident incidunt nobis repudiandae quibusdam eos dolore. Delectus modi sequi quas quaerat nam porro, repellat minus.</div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="developer.png">
+                <div class="verticaltitle"> NODE.JS Developer</div>
+                <div class="verticaldesc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum vitae repellat dolore praesentium esse! Provident incidunt nobis repudiandae quibusdam eos dolore. Delectus modi sequi quas quaerat nam porro, repellat minus.</div>
+                
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="developer.png">
+                <div class="verticaltitle"> HTML Developer</div>
+                <div class="verticaldesc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum vitae repellat dolore praesentium esse! Provident incidunt nobis repudiandae quibusdam eos dolore. Delectus modi sequi quas quaerat nam porro, repellat minus.</div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="developer.png">
+                <div class="verticaltitle"> HTML Developer</div>
+                <div class="verticaldesc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum vitae repellat dolore praesentium esse! Provident incidunt nobis repudiandae quibusdam eos dolore. Delectus modi sequi quas quaerat nam porro, repellat minus.</div>
+            </div>
+            
+        </div>
+
+
+
+        </section>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>WEB DEVELOPER</i>.', '<i>GRAPHIC DESIGNER</i>.'],
+          typeSpeed: 80,
+        });
+      </script>
+</body>
+</html>
